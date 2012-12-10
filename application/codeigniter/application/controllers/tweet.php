@@ -13,8 +13,7 @@ class Tweet extends CI_Controller {
 		parent::__construct();
 
 		$this->load->model('twitter');
-		$this->load->model('tweetmodel');
-
+		
 		$this->load->helper('url');
 	}
 
